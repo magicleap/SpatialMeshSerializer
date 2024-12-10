@@ -1,0 +1,21 @@
+{
+  "displayName": "Magic Leap Spatial Mesh Serializer",
+  "name": "com.magicleap.solutions.spatialmeshserializer",
+  "unity": "2022.2",
+  "version": "1.0.4",
+  "keywords": [
+    "meshing",
+    "openxr"
+  ],
+  "description": "Allows developers to save localized meshes to the user's device and load them on subsequent playthroughs.",
+  "author": {
+    "name": "Magic Leap"
+  },
+  "samples": [
+    {
+      "displayName": "Save/Load",
+      "description": "Contains sample scene with spatial mesh save/load functionality.",
+      "path": "Samples~/MeshSample"
+    }
+  ]
+}

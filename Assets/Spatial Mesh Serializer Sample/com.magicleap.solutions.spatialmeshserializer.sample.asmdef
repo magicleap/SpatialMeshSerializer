@@ -1,0 +1,23 @@
+{
+    "name": "MagicLeap.SpatialMeshSerializer.Sample",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1fc69d160eafe774ab0a8e5191500311",
+        "GUID:b25d5a9c5ad394b45a9fa7192a184e9f",
+        "GUID:46ed5547f65c5d04dbb7b0b029478e59",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:e40ba710768534012815d3193fa296cb",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:92703082f92b41ba80f0d6912de66115",
+        "GUID:a9420e37d7990b54abdef6688edbe313"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
