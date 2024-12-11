@@ -75,7 +75,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d60f70bca23d41759964b1dda9e085b0, type: 3}
   m_Name: MagicLeapReferenceSpacesFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Magic Leap 2 Reference Spaces
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.reference_spaces
@@ -295,7 +295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74ecfbe7bc16a2e41a36f3c8e26f111c, type: 3}
   m_Name: MagicLeapFacialExpressionFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Magic Leap 2 Facial Expression
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_facialexpression
@@ -528,7 +528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7107f4296adb0497caaacdeec606c190, type: 3}
   m_Name: MagicLeapSystemNotificationsFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Magic Leap 2 System Notification Control
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_systemnotification
@@ -737,7 +737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0898445048444aca849c32d97d461dbf, type: 3}
   m_Name: MagicLeapPixelSensorFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Magic Leap 2 Pixel Sensor
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_pixel_sensor
@@ -1016,7 +1016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab47626d909c75646bf88bfa5ac12421, type: 3}
   m_Name: MagicLeapUserCalibrationFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Magic Leap 2 User Calibration
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_usercalibration
@@ -1116,7 +1116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f7fbc139c144e69b4a0b0fb5139683f, type: 3}
   m_Name: MagicLeapPlanesFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Magic Leap 2 Planes Subsystem
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_planes
@@ -1486,7 +1486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491bffdd79954604eb2061e054101b16, type: 3}
   m_Name: MagicLeapDepthRangeChangeFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Magic Leap 2 Depth Range Change
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.depth_range_change
@@ -1526,7 +1526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c53e7f5c52084141900efe09f71fe0f, type: 3}
   m_Name: MagicLeapLightEstimationFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Magic Leap 2 Light Estimation
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_lightestimation
@@ -1566,7 +1566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78dd111ab9872144c9ea2d30e138bec4, type: 3}
   m_Name: MagicLeapEyeTrackerFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Magic Leap 2 Eye Tracker
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_eyetracker
@@ -1586,7 +1586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 839b445bcefe86e4c850a6223d8e213f, type: 3}
   m_Name: MagicLeapMarkerUnderstandingFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Magic Leap 2 Marker Understanding
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_markerunderstanding
