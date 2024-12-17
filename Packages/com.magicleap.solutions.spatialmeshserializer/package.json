@@ -13,9 +13,9 @@
   },
   "samples": [
     {
-      "displayName": "Save/Load",
+      "displayName": "Spatial Mesh Serializer Sample",
       "description": "Contains sample scene with spatial mesh save/load functionality.",
-      "path": "Samples~/MeshSample"
+      "path": "Samples~/Spatial Mesh Serializer Sample"
     }
   ]
 }

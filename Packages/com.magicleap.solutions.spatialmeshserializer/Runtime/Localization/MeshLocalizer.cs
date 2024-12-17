@@ -1,6 +1,7 @@
 using MagicLeap.Android;
 using MagicLeap.OpenXR.Features.LocalizationMaps;
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.OpenXR;
 using UnityEngine.XR.OpenXR.NativeTypes;
@@ -28,14 +29,20 @@ namespace MagicLeap.SpatialMeshSerializer
 
         public static bool initialized { get; private set; }
 
+        private static List<string> _requiredPermissions = new List<string>() {Permissions.SpaceImportExport,Permissions.SpaceManager};
+
         /// <summary>Initialization method to enable localization callbacks.</summary>
         /// <remarks>Must be called before this API can be used.</remarks>
         public static void Initialize()
         {
             if(initialized) return;
 
-            Permissions.RequestPermission(Permissions.SpaceImportExport);
-            Permissions.RequestPermission(Permissions.SpaceManager, OnPermissionGranted);
+            Permissions.RequestPermissions(_requiredPermissions.ToArray(),OnPermissionGranted, OnPermissionDenied,OnPermissionDenied);
+        }
+        
+        private static void OnPermissionDenied(string permission)
+        {
+            Debug.LogError("Mesh Manager Not Initialized. Permission denied: " + permission);
         }
 
         /// <summary>
@@ -101,7 +108,15 @@ namespace MagicLeap.SpatialMeshSerializer
 
         private static void OnPermissionGranted(string permission)
         {
-            initialized = TrySubscribeToLocalizationChanges();
+            if (_requiredPermissions.Contains(permission))
+            {
+                _requiredPermissions.Remove(permission);
+            }
+
+            if (_requiredPermissions.Count == 0)
+            {
+                initialized = TrySubscribeToLocalizationChanges();
+            }
         }
 
         private static bool TrySubscribeToLocalizationChanges()
